@@ -1,0 +1,1242 @@
+/* a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 80%;
+  font: inherit;
+  vertical-align: baseline;
+} */
+/* font  */
+@font-face {
+  font-family: Qanelas;
+  font-weight: 900;
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_0_0.eot);
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_0_0.eot?#iefix)
+      format("embedded-opentype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_0_0.woff2)
+      format("woff2"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_0_0.woff)
+      format("woff"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_0_0.ttf)
+      format("truetype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_0_0.svg#wf)
+      format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Qanelas;
+  font-weight: 800;
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_2_0.eot);
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_2_0.eot?#iefix)
+      format("embedded-opentype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_2_0.woff2)
+      format("woff2"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_2_0.woff)
+      format("woff"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_2_0.ttf)
+      format("truetype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_2_0.svg#wf)
+      format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Qanelas;
+  font-weight: 700;
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_1_0.eot);
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_1_0.eot?#iefix)
+      format("embedded-opentype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_1_0.woff2)
+      format("woff2"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_1_0.woff)
+      format("woff"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_1_0.ttf)
+      format("truetype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_1_0.svg#wf)
+      format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Qanelas;
+  font-weight: 600;
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_3_0.eot);
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_3_0.eot?#iefix)
+      format("embedded-opentype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_3_0.woff2)
+      format("woff2"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_3_0.woff)
+      format("woff"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_3_0.ttf)
+      format("truetype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_3_0.svg#wf)
+      format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Qanelas;
+  font-weight: 500;
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_4_0.eot);
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_4_0.eot?#iefix)
+      format("embedded-opentype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_4_0.woff2)
+      format("woff2"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_4_0.woff)
+      format("woff"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_4_0.ttf)
+      format("truetype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_4_0.svg#wf)
+      format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Qanelas;
+  font-weight: 400;
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_5_0.eot);
+  src: url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_5_0.eot?#iefix)
+      format("embedded-opentype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_5_0.woff2)
+      format("woff2"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_5_0.woff)
+      format("woff"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_5_0.ttf)
+      format("truetype"),
+    url(//static.fubo.tv/static/web/fonts/qanelas/34A12F_5_0.svg#wf)
+      format("svg");
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 80%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+/* body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+} */
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  font-family: Qanelas, Arial, sans-serif;
+  font-size: 80%;
+  font-weight: 400;
+  line-height: 1.7em;
+  position: relative;
+  color: #404040;
+  background: #fafafa;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.col-md-2 {
+  padding: 0;
+  margin: 5px;
+  width: 15.666667%;
+}
+
+.btn_expand {
+  display: inline-block;
+  border-radius: 3px;
+  border-color: #f57c00;
+  border-width: 2px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  font-size: 1.1em;
+  padding: 15px 20px;
+  font-weight: 700;
+  color: #fff;
+  background: #f57c00;
+  text-align: center;
+  margin: 0 auto;
+}
+
+a.btn {
+  text-align: center;
+}
+
+a.btn.CTA {
+  display: inline-block;
+  font-size: 23px;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+#apps div.content .centercta {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 736px) and (min-width: 320px) {
+  a.btn.CTA {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 736px) and (min-width: 320px) {
+  a.btn.CTA:after {
+    font-size: 18px;
+  }
+}
+
+.btn_expand:focus,
+.btn_expand:hover {
+  color: #fff;
+  background: #e87400;
+}
+
+#channels .col-md-2 .box {
+  min-height: 95px;
+}
+
+.smnetworks {
+  width: 110px;
+  height: auto;
+  margin: 8px 5px;
+}
+
+@media (max-width: 1200px) {
+  .col-md-2 {
+    float: left;
+    width: 15.5%;
+  }
+}
+
+@media (max-width: 780px) {
+  #apps .content img {
+    float: left;
+    width: 45%;
+    margin: 3px;
+  }
+  #channels .col-md-2 .box {
+    min-height: 70px;
+  }
+  #channels .content .box {
+    width: 33%;
+    margin: 3px 5px;
+    min-height: 100px;
+  }
+  #channels .box img {
+    width: 75%;
+  }
+  .col-md-2 {
+    float: left;
+    width: 18%;
+  }
+  .col-md-3 {
+    width: 33%;
+  }
+  #faqs .content .box {
+    width: 100%;
+  }
+  .smnetworks {
+    width: 90px;
+  }
+}
+
+@media (max-width: 580px) {
+  .videoFloatLogo {
+    max-width: 75px;
+    bottom: 75px;
+    right: 15px;
+    z-index: 1;
+    position: relative;
+  }
+  .col-md-2 {
+    float: left;
+    width: 22%;
+  }
+  .col-md-3 {
+    width: 50%;
+  }
+  #apps .content img {
+    float: left;
+    width: 45%;
+    margin: 3px;
+  }
+}
+
+@media (max-width: 480px) {
+  .col-md-2 {
+    float: left;
+    width: 22%;
+  }
+  #channels .col-md-2 .box {
+    min-height: 50px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.section {
+  text-align: center;
+}
+/* common styles end  */
+/* header start  */
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.CTA {
+  font-size: 1.5em;
+  background: #fa4616;
+  padding: 18px 20px;
+  border-radius: 3px;
+  font-weight: 700;
+  width: 320px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.CTA:hover {
+  background: #b33922;
+  cursor: pointer;
+}
+
+header {
+  background-size: 100%;
+  background-position: 0 -100px;
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  padding: 5vh 0 0 0;
+  border-bottom: 5px solid #fa4616;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent);
+}
+
+.fullscreen-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #000;
+}
+
+.cta-wrapper {
+  margin-left: 3%;
+  max-width: 75%;
+  width: 75%;
+  text-align: left !important;
+  float: left !important;
+  margin-top: 15vh;
+  position: relative;
+  z-index: 101;
+}
+
+header h1 {
+  font-size: 3.5em;
+  line-height: 1.1em;
+  font-weight: 700;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+header h2 {
+  width: 100%;
+  font-size: 1.6em;
+  margin-bottom: 30px;
+  line-height: initial;
+}
+
+header h2:last-of-type {
+  margin-bottom: 45px;
+}
+
+header .secondary-text {
+  color: #e5e3e3;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+#fuboTV {
+  background: url(images/logo_fuboTV_white.png) no-repeat;
+  height: 43px;
+  width: 105px;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+
+@media screen and (min-width: 1376px) {
+  #fuboTV {
+    left: 100px;
+  }
+}
+
+/* temporary trail start  */
+section.how-it-works-section {
+  padding: 90px 0;
+  background-color: #3e315e;
+  background: linear-gradient(-45deg, #3e315e 0%, #1f182b 100%);
+}
+@media only screen and (max-width: 981px) {
+  section.how-it-works-section {
+    padding: 30px 0;
+  }
+}
+section.how-it-works-section div.subsectionContain {
+  width: 850px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 981px) {
+  section.how-it-works-section div.subsectionContain {
+    width: 100%;
+    padding: 10px 0 20px 0;
+    display: block;
+  }
+}
+section.how-it-works-section div.twoCol.left {
+  width: 525px;
+  margin-right: 75px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 981px) {
+  section.how-it-works-section div.twoCol.left {
+    width: 100%;
+    margin: 5px auto;
+  }
+}
+section.how-it-works-section div.twoCol.left img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+@media only screen and (max-width: 981px) {
+  section.how-it-works-section div.twoCol.left img {
+    margin: 10px auto 30px auto;
+    max-width: 50%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  section.how-it-works-section div.twoCol.left img {
+    max-width: 75%;
+  }
+}
+section.how-it-works-section div.twoCol.right {
+  width: 550px;
+  display: inline-block;
+}
+@media only screen and (max-width: 981px) {
+  section.how-it-works-section div.twoCol.right {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+  section.how-it-works-section div.twoCol.left {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+p.subsection {
+  color: #fff;
+}
+h2.subsection {
+  font-size: 43px;
+  font-family: "Qanelas", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: bold;
+  width: 100%;
+  line-height: 1.1;
+  padding-bottom: 20px;
+  color: #fff;
+}
+section.subsection {
+  padding: 70px 0;
+}
+@media only screen and (max-width: 736px) {
+  section.subsection {
+    padding: 50px 0;
+  }
+}
+@media only screen and (max-width: 479px) {
+  section.subsection {
+    padding: 30px 0;
+  }
+}
+@media only screen and (max-width: 981px) {
+  section.subsection .button {
+    display: block;
+    padding-top: 1em;
+  }
+}
+section.props h2.subsection,
+.subsection.gray {
+  color: #242526;
+}
+section.props h2.subsection {
+  margin: 30px 5px 50px 5px;
+}
+div.subsectionContain {
+  width: 89%;
+  margin: 0 auto;
+  display: flex;
+}
+@media only screen and (max-width: 981px) {
+  h2.subsection {
+    font-size: 42px;
+    font-family: "Qanelas";
+    font-weight: bold;
+    width: 100%;
+    line-height: 1.1;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 736px) {
+  h2.subsection {
+    font-size: 32px;
+  }
+}
+h3.subsection {
+  font-size: 30px;
+  font-family: "Qanelas", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: bold;
+  width: 95%;
+  line-height: 1.1;
+  padding-bottom: 10px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  color: #fff;
+}
+p.subsection {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 30px;
+}
+/* temporary trail end  */
+/*more channels section start  */
+.header {
+  padding: 65px 3% 45px;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  background: url(https://fubo-marketing.imgix.net/lp/StreamTV/images/stars.png)
+    no-repeat 50% 30px;
+}
+
+.header h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.9em;
+  line-height: 1.3em;
+  margin-bottom: 5px;
+}
+
+.header h1 span.super {
+  vertical-align: top;
+  font-size: 70%;
+  padding-left: 2px;
+}
+
+.header h2 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.75em;
+  line-height: 1.5em;
+}
+
+.content {
+  max-width: 1200px;
+  padding: 0 15%;
+  margin: -20px auto 0;
+  box-sizing: content-box;
+}
+
+.box {
+  background: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  margin: 0 7px 7px 0;
+}
+
+#channels .header {
+  background-color: #242526;
+}
+
+#channels .content {
+  padding: 0 5%;
+}
+
+#channels .box {
+  width: 219px;
+  height: 109px;
+}
+
+#channels .box img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+}
+
+/* more channels  */
+#channels #more-channels {
+  background: #fff;
+  border-top: 1px solid #ededed;
+  padding: 30px 0;
+  color: #999;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#more-channels img {
+  height: auto;
+  margin: 8px 5px;
+}
+
+#more-channels p {
+  font-size: 22px;
+  margin: 10px 0;
+  line-height: 1.35;
+}
+
+@media (max-width: 376px) {
+  #more-channels p {
+    font-size: 18px;
+  }
+}
+
+#more-channels p span {
+  display: inline-block;
+}
+
+/* channels images start */
+.more-channels .channels-container {
+  background-color: #ffffff;
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.more-channels .channels-container img {
+  width: 80px;
+  height: 41px;
+  display: inline-block;
+  text-align: center;
+  padding: 0px 7px;
+  box-sizing: border-box;
+}
+
+.more-channels .channels-container .anim.active {
+  animation: fadeup 0.2s linear forwards;
+}
+
+@keyframes fadeup {
+  0% {
+    transform: translateY(10rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.more-channels .channels-container .hide {
+  display: none;
+}
+/* channels images end */
+
+#more-channels .more-channels-wrapper .button {
+  width: 250px;
+  box-sizing: border-box;
+  border: 1px solid #210b61;
+  background-color: #ffffff;
+  cursor: pointer;
+  padding: 12px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#more-channels .more-channels-wrapper .button span {
+  font-size: 18px;
+  color: #170e30;
+  font-weight: bold;
+}
+
+#more-channels .more-channels-wrapper .button svg {
+  color: #170e30;
+  vertical-align: middle;
+  font-size: 18px;
+  margin-left: 7px;
+  height: 20px;
+}
+
+/* more channels end */
+/* mobile devies apps start */
+#apps .header {
+  background-color: #242526;
+}
+
+#apps .box {
+  width: 31%;
+}
+
+#apps .box {
+  height: 100%;
+  display: inline-block;
+  max-width: 276px;
+}
+
+/* frequently asked question start */
+#faqs .box {
+  width: 219px;
+}
+#faqs .header {
+  background-color: #242526;
+}
+
+#faqs {
+  padding-bottom: 80px;
+  font-size: 1.1em;
+}
+
+#faqs .box {
+  text-align: left;
+  width: 100%;
+}
+
+#faqs .column {
+  float: left;
+  width: 44%;
+  padding: 30px 3%;
+}
+
+#faqs p {
+  padding-bottom: 15px;
+  color: #666;
+}
+
+#faqs .box strong {
+  color: #404040;
+  display: block;
+  font-size: 1.2em;
+  font-weight: 500;
+  padding-bottom: 7px;
+}
+
+#inquiry {
+  margin: 20px 0 0;
+}
+
+#inquiry a,
+#inquiry strong {
+  color: #00a0d7;
+}
+
+/* footer start  */
+footer {
+  height: 60px;
+  padding: 20px 5%;
+  color: #b8b8b8;
+  background: #2f3233;
+  position: relative;
+}
+
+footer a {
+  color: #b8b8b8;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer #social {
+  float: right;
+}
+
+footer #social span {
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+
+footer #social span.social {
+  margin-top: -5px;
+  margin-right: 4px;
+}
+
+footer #social span.social a {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 2px;
+  border: 1px solid #656565;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+footer #social a:after {
+  font: normal normal normal 16px/1 FontAwesome;
+  line-height: 2;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+footer span#facebook a:hover {
+  background: #3170aa;
+  border: 1px solid #3170aa;
+}
+
+footer span#twitter a:hover {
+  background: #22c2f2;
+  border: 1px solid #22c2f2;
+}
+
+footer span#youtube a:hover {
+  background: #cf3327;
+  border: 1px solid #cf3327;
+}
+
+@media screen and (min-width: 1376px) {
+  .cta-wrapper {
+    margin-left: 100px;
+  }
+}
+
+.centercta {
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.showonmobile {
+  display: none;
+}
+
+@media screen and (max-width: 736px) {
+  header h1 {
+    font-size: 2.4em !important;
+  }
+  #countdown-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px 5px 5px 4px;
+    border-radius: 2px;
+  }
+  .first {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+  }
+  .last {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+  }
+  .count {
+    font-size: 1.7em;
+    padding: 7px 7px 3px;
+  }
+  .label {
+    font-size: 0.75em;
+    line-height: 1.2;
+  }
+  .CTA {
+    width: 252px;
+  }
+  .CTA a {
+    font-size: 20px;
+  }
+  a:hover {
+    color: #fff;
+  }
+  .content .CTA {
+    width: 80%;
+  }
+  #fuboTV {
+    height: 43px;
+    width: 105px;
+    top: 15px;
+    left: 30px;
+    background-size: 80%;
+  }
+  #channels .content,
+  .content {
+    padding: 0 5%;
+  }
+  #apps .box,
+  #channels .box {
+    width: 100%;
+    margin: 0 0 7px 0;
+  }
+  #faqs .column {
+    width: 90%;
+    padding: 15px 5% 0;
+  }
+  footer span#top {
+    display: none;
+  }
+  .hideonmobile {
+    display: none;
+  }
+  .showonmobile {
+    display: block;
+  }
+  .cta-wrapper {
+    left: 0;
+    right: 0;
+    margin-left: 30px;
+    max-width: 100%;
+    width: 90%;
+    text-align: left !important;
+    float: left !important;
+    margin-top: 12vh;
+  }
+
+  #channels .box img {
+    width: 100% !important;
+  }
+  #channels #more-channels {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #channels .box img {
+    max-width: 90% !important;
+    height: auto;
+    width: 100% !important;
+    padding: 2px 0;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  header h1 {
+    font-size: 2.3em !important;
+  }
+  header h2 {
+    font-size: 1.4em !important;
+  }
+  header .secondary-text {
+    font-size: 1.1em !important;
+  }
+}
+
+.orangeBottom {
+  border-bottom: 5px solid #fa4616;
+}
+
+.orangeTop {
+  border-top: 5px solid #fa4616;
+}
+
+.whiteBottom {
+  border-bottom: 5px solid #fafafa;
+}
+
+.whiteTop {
+  border-top: 1px solid #ededed;
+}
+
+.noBorder {
+  border: none !important;
+}
+
+.props {
+  width: 100%;
+  height: auto;
+  background: #fafafa;
+  color: #d9d9d9;
+  margin-top: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.props.dark {
+  background: #242526;
+  color: #d9d9d9;
+}
+
+.props .col-md-4 {
+  max-width: 450px;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+.props h1 {
+  color: #242526;
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 1.2;
+  display: block;
+  margin: 10px 0 40px 0;
+}
+
+.props.dark h1 {
+  color: #d9d9d9;
+}
+
+.props img {
+  height: 69px;
+}
+
+.props h2 {
+  color: #f57c00;
+  font-size: 1.6em;
+  font-weight: 700;
+  margin: 15px 0 5px 0;
+}
+
+.props.dark h2 {
+  color: #f57c00;
+}
+
+.props p {
+  color: #1a1d29;
+  font-size: 1.25em;
+  margin: 0 3% 40px 3%;
+}
+
+.props.dark p {
+  color: #999;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
+}
+
+.col-md-4 {
+  width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 415px) {
+  .cta-wrapper {
+    margin-top: 11vh;
+    margin-bottom: 50px;
+  }
+  header h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 400px) {
+  header h1 {
+    font-size: 2.2em !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .props .col-md-4 {
+    width: 33%;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 991px) {
+  .props .col-md-4 {
+    margin: 50px auto;
+  }
+  .props {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .props h1 {
+    margin-bottom: 25px;
+  }
+}
+
+header .ctaContain {
+  margin-bottom: 20vh;
+  margin-top: 15px;
+}
+
+header a.btn.CTA {
+  text-transform: uppercase;
+}
+
+div.headerContent {
+  max-width: 1376px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 736px) {
+  div.headerContent {
+    margin-left: 30px;
+  }
+}
+
+div.headerContent #fuboTV {
+  position: relative !important;
+}
+
+a.btn.CTA:after {
+  content: "" !important;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding-top: 0;
+  }
+  header .ctaContain {
+    margin-bottom: 75px;
+  }
+  #channels .content .box {
+    width: 30%;
+    min-height: 50px;
+    height: 50px;
+    margin: 5px;
+  }
+  #apps .content img.lite {
+    width: 31%;
+  }
+  #channels .content,
+  .content {
+    padding: 0 2%;
+  }
+}
+
+@media (max-width: 450px) {
+  .cta-wrapper {
+    margin-left: 5%;
+  }
+  #fuboTV {
+    left: 5%;
+  }
+  header a.btn.CTA {
+    width: 280px;
+    padding: 18px 10px;
+  }
+}
